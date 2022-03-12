@@ -20,3 +20,37 @@
     color: #fff;
     padding: 15px;
   }
+  
+  #content {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 1rem;
+    width: 270px;
+    overflow: hidden;
+    color: #fff;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #100e17;
+    box-shadow: -1rem 0 5rem #000;
+    border-radius: 10px;
+  }
+  .card:hover {
+    position: relative;
+    left: 5px;
+    transition: 0.4s ease-out;
+  }
+  
+  .card h3 {
+    padding-top: 10px;
+    text-align: center;
+    background-image: linear-gradient(rgb(87, 20, 100), rgb(71, 71, 26));
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+  }
+  
